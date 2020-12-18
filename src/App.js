@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Clock from './Clock';
+import ClockWithUse from './ClockWithUse';
+
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <Clock date={new Date()} />
+        <ClockWithUse date={new Date()} />
         {/*<Clock />*/}
       </header>
     </div>
