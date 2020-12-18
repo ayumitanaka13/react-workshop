@@ -11,7 +11,9 @@ const ClockWithUse = props => {
         <React.Fragment>
         <h1>Hello, world!</h1>
         <h2>It is {props.date.toLocaleTimeString()}.</h2>
+        {/* function */}
         <button onClick={countUp}>Count UP</button>
+        {/* getter */}
         <p>Count {count}</p>
         </React.Fragment>
     )
